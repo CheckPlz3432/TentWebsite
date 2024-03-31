@@ -32,8 +32,8 @@
   background-color: black;
   width: 45%;
   border: 5px solid green;
-  padding: 30px 50px;
-  margin: 50px;
+  padding: 45px 50px;
+  margin: 40px;
 }
 
 .eventitemlogo {
@@ -107,6 +107,13 @@ a {
   font-family: 'Google Sans', sans-serif;
   font-weight: bolder;
   font-size: 1.2em;  
+}
+
+.coverLetText {
+  color: black;
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;  
 }
 
 .chapterButton {
