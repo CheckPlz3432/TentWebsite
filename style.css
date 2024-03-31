@@ -44,6 +44,13 @@
     object-fit: cover;
 }
 
+.blogitemlogo {
+    float: left;
+    width:  400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 .devlogo {
     float: left;
     width:  100px;
