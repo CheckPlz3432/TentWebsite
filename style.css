@@ -188,11 +188,11 @@ a:hover {
 }
 
 #resumepic {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 4px solid white;
-  padding: 10px;
+   border-radius: 50%;
+    float: left;
+    object-fit: cover;
 }
 
 /* The side navigation menu */
