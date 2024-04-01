@@ -5,3 +5,6 @@ I'm using
 - Bootstrap Framework
 - JS
 - React (coming soon)
+
+Next Step:
+Add file folders for images and other downloaded elements
