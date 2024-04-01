@@ -51,6 +51,13 @@
     object-fit: cover;
 }
 
+.blogmainpic{
+    float: center;
+    width:  400px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .devlogo {
     float: left;
     width:  100px;
