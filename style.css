@@ -26,6 +26,23 @@
 }
 
 
+.aboutMeBox {
+  border-radius: 8px;
+  text-align: center;
+  background-color: black;
+  border: 5px solid green;
+}
+
+.eventitemdiv {
+  border-radius: 12px;
+  text-align: center;
+  background-color: black;
+  width: 45%;
+  border: 5px solid green;
+  padding: 45px 50px;
+  margin: 40px;
+}
+
 .eventitemdiv {
   border-radius: 12px;
   text-align: center;
@@ -105,16 +122,24 @@ p {
   font-family: 'Google Sans', sans-serif;
   font-weight: bolder;
   text-indent: 50px;
+}
 
+.contactTag {
+  text-align: center;
+  color: purple;
+  font-family: 'Google Sans', sans-serif;
+  font-weight: bolder;
+  text-indent: 25px;
+  font-size: 1.5em;
 }
 
 
-a {
+/* a {
   color: white;
   font-family: 'Google Sans', sans-serif;
   font-weight: bolder;
   font-size: 1.2em;
-}
+}*/
 
 .burgerTitle {
   color: white;
