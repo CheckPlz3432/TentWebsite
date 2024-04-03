@@ -16,13 +16,19 @@
   margin: auto;
 }
 
-@keyframes bluePurpBack {
+@keyframes example {
   from {background-color: #4287f5;}
   to {background-color: #a442f5;}
+}
+
+.bluePurpBack {
   height: fit-content;
   background-size: cover;
   background-position: center;
   margin: auto;
+  background-color: #4287f5;
+  animation-name: example;
+  animation-duration: 10s;
 }
 
 .purpBack {
