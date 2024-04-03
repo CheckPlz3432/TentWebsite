@@ -16,6 +16,24 @@
   margin: auto;
 }
 
+@keyframes bluePurpBack {
+  from {background-color: #4287f5;}
+  to {background-color: #a442f5;}
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
+.purpBack {
+  background-image: url("minimalPurp.jpg");
+  background-color: white;
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
 .purpSquareBack {
   background-image: url("purpleSquares.jpg");
   background-color: white;
