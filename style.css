@@ -54,7 +54,9 @@
   border-radius: 8px;
   text-align: center;
   background-color: black;
-  border: 5px solid green;
+  border: 5px solid red;
+  padding: 40px;
+  margin: 200px;
 }
 
 .eventitemdiv {
