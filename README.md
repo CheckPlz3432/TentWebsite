@@ -9,4 +9,5 @@ I'm using
 - React (coming soon)
 
 Next Step:
-Add file folders for images and other downloaded elements
+Fix button for linking to pdf and finish blog page layout
+Consider adding react.js and getting rid of bootstrap.css
