@@ -32,7 +32,7 @@
 }
 
 .purpBack {
-  background-image: url("/backgrounds/minimalPurp.jpg");
+  background-image: url("../backgrounds/minimalPurp.jpg");
   background-color: white;
   height: fit-content;
   background-size: cover;
@@ -41,7 +41,7 @@
 }
 
 .purpSquareBack {
-  background-image: url("/backgrounds/purpleSquares.jpg");
+  background-image: url("../backgrounds/purpleSquares.jpg");
   background-color: white;
   height: fit-content;
   background-size: cover;
