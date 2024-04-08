@@ -4,7 +4,8 @@ Link: https://checkplz3432.github.io/TentWebsite/
 I'm using
 - HTML
 - CSS
-- Bootstrap Framework 
+- Tailwind.css
+- Bootstrap.css
 - JS
 - React (coming soon)
 
