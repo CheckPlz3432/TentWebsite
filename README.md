@@ -4,12 +4,11 @@ Link: https://checkplz3432.github.io/TentWebsite/
 I'm using
 - HTML
 - CSS
-- Tailwind.css
-- Bootstrap.css
+  - Bootstrap
 - JS
-- React (coming soon)
+  - React (coming soon)
 
 Next Step:
-Fix button for linking to pdf and finish blog page layout
-Finalize adding tailwind.css and getting rid of bootstrap.css
+Finalize getting rid of tailwind.css and fixing the layout of the blog page,
+using an extra page as a template
 Add react.js to project at some point
