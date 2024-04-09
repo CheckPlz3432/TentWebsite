@@ -1,4 +1,3 @@
-you've
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,10 +6,31 @@ you've
     <title>Trent's Home Page</title>
     <link rel="icon" type="image/x-icon" src="icons/blueArrow.png">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="./output.css" rel="stylesheet">
     <img class="devlogo" src="https://seeklogo.com/images/G/google-developers-logo-F8BF3155AC-seeklogo.com.png">
     <div id="main">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
+        <!--tailwind.css test code-->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style type="text/tailwindcss">
+            @layer utilities {
+              .content-auto {
+                content-visibility: auto;
+              }
+            }
+          </style>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+    </head>
 <header>
     <a class="chapterButton" href="https://gdsc.community.dev/university-of-illinois-chicago/" target="_blank">Join
         Chapter</a>
@@ -30,6 +50,7 @@ you've
 
 <body class="gdscBack">
     <div id="main">
+        <!--tailwind.css test code-->
         <div class="w3-container w3-teal">
             <h1>Past Events for GDSC UIC</h1>
         </div>
