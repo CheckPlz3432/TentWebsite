@@ -386,3 +386,9 @@ a:hover {
   background: #ddd;
   margin-top: 20px;
 }
+
+/*The stuff for the 5th page*/
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+}
