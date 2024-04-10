@@ -98,8 +98,8 @@
 
 .blogmainpic {
   float: center;
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: auto;
   object-fit: cover;
 }
 
