@@ -360,7 +360,6 @@ a:hover {
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
-  height: 300px;
   width: auto;
   padding: 20px;
 }
@@ -388,7 +387,8 @@ a:hover {
 }
 
 /*The stuff for the 5th page*/
-.fakeimg {
-  height: 200px;
+.fakeimg5th {
+  height: 300px;
+  width: auto;
   background: #aaa;
 }
