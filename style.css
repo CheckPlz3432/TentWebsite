@@ -97,8 +97,7 @@
 }
 
 .blogmainpic {
-  float: center;
-  width: 300px;
+  width: 125px;
   height: auto;
   object-fit: cover;
 }
