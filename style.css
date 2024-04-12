@@ -22,14 +22,6 @@
   margin: auto;
 }
 
-.hawaiiBack1 {
-  background-image: url("/backgrounds/hawaiiBack1.jpg");
-  height: fit-content;
-  background-size: cover;
-  background-position: center;
-  margin: auto;
-}
-
 /*Code for animated background*/
 @keyframes example {
   from {
