@@ -51,6 +51,14 @@
   margin: auto;
 }
 
+.flowerTwo {
+  background-image: url("backgrounds/flowerBack2.jpg");
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
 
 .aboutMeBox {
   border-radius: 8px;
