@@ -14,6 +14,14 @@
   margin: auto;
 }
 
+.sbBack1 {
+  background-image: url("/backgrounds/SBFlowerBack1.webp");
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
 /*Code for animated background*/
 @keyframes example {
   from {
