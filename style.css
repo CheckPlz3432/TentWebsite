@@ -14,8 +14,8 @@
   margin: auto;
 }
 
-.sbBack {
-  background-image: url("https://i.etsystatic.com/10868806/r/il/6e5775/4079544308/il_fullxfull.4079544308_c7w1.jpg");
+#newBack {
+  background-image: url("https://i.pinimg.com/originals/81/c3/1d/81c31d38ffd0268cc6f4ff03594d3fde.jpg");
   height: fit-content;
   background-size: cover;
   background-position: center;
