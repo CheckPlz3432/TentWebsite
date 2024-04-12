@@ -167,6 +167,13 @@ p {
   text-indent: 50px;
 }
 
+.newBlogText {
+  color: black;
+  font-family: 'Verdana', sans-serif;
+  font-weight: normal;
+  text-indent: 0px;
+}
+
 .contactTag {
   text-align: center;
   color: #6a5acd;
