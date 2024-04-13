@@ -51,8 +51,8 @@
   margin: auto;
 }
 
-.flowerTwo {
-  background-image: url("backgrounds/flowerBack2.jpg");
+.flowerBackOne {
+  background-image: url("backgrounds/SBFlowerBack1.webp");
   height: fit-content;
   background-size: cover;
   background-position: center;
