@@ -52,10 +52,10 @@
 }
 
 .flowerBackOne {
-  background-image: url("backgrounds/SBFlowerBack1.webp");
-  height: fit-content;
-  background-size: cover;
+  background: url("backgrounds/SBFlowerBack1.webp");
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   margin: auto;
 }
 
@@ -406,6 +406,6 @@ a:hover {
 /*The stuff for the 5th page*/
 .fakeimg5th {
   height: auto;
-  width: 300px;
+  width: 400px;
   background: #aaa;
 }
