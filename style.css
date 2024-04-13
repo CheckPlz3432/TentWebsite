@@ -269,7 +269,7 @@ a:hover {
   object-fit: cover;
 }
 
-/* The side navigation menu */
+/* The side navigation menu code start */
 .sidenav {
   height: 100%;
   /* 100% Full-height */
@@ -339,7 +339,9 @@ a:hover {
   }
 }
 
-/*New blog code*/
+/* The side navigation menu code end */
+
+/* New blog code - 4th page - start */
 * {
   box-sizing: border-box;
 }
