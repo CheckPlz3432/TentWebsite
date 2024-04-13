@@ -405,7 +405,7 @@ a:hover {
 
 /*The stuff for the 5th page*/
 .fakeimg5th {
-  height: 300px;
-  width: auto;
+  height: auto;
+  width: 200px;
   background: #aaa;
 }
