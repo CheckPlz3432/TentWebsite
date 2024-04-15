@@ -14,4 +14,4 @@ using an extra page as a template
 
 Add react.js to project at some point
 
-Make the responsive js space stars background from: https://www.sliderrevolution.com/resources/css-animated-background/
+Make the responsive js space stars background from: https://www.sliderrevolution.com/resources/css-animated-background/ and https://codepen.io/riley-pearce/pen/OJWPjZM
