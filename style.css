@@ -1,4 +1,4 @@
-body {
+html {
   overflow: scroll; /* Show scrollbars */
 }
 
@@ -288,7 +288,7 @@ a:hover {
   left: 0;
   background-color: #111;
   /* Black*/
-  overflow-x: hidden;
+  overflow-x: scroll;
   /* Disable horizontal scroll */
   padding-top: 60px;
   /* Place content 60px from the top */
