@@ -1,3 +1,7 @@
+body {
+  overflow: scroll; /* Show scrollbars */
+}
+
 .gdscBack {
   background-image: url("https://wallpapers.com/images/hd/colorful-google-polka-dots-ot2t9bbzehsjggdx.jpg");
   height: fit-content;
