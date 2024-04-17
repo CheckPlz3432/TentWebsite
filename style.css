@@ -73,7 +73,7 @@ a:hover {
 }
 
 .chiLapseBox {
-  background-image: url("/backgrounds/ChicagoTimelapse.gif");
+  background-color: #16e6f5;
   border-radius: 8px;
   text-align: center;
   border: 5px solid red;
