@@ -72,6 +72,14 @@ a:hover {
   margin: auto;
 }
 
+.chiLapseBack {
+  background-image: url("/backgrounds/ChicagoTimelapse.gif");
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+}
+
 .bluePurpBack {
   height: fit-content;
   background-size: cover;
