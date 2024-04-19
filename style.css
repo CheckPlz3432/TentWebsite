@@ -38,7 +38,7 @@ p {
   text-indent: 50px;
 }
 
-a {
+.onepieceanchor {
   color: white;
   font-family: 'Google Sans', sans-serif;
   font-weight: bolder;
