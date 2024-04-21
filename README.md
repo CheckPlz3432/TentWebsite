@@ -9,9 +9,9 @@ I'm using
   - React (coming soon)
 
 Next Step:
-Finalize getting rid of tailwind.css and fixing the layout of the blog page,
-using an extra page as a template
+Continue building and reorganizing One Piece webpage
+Add webpages for other blog posts
 
 Add react.js to project at some point
 
-Make the responsive js space stars background from: https://www.sliderrevolution.com/resources/css-animated-background/ and https://codepen.io/riley-pearce/pen/OJWPjZM
+The responsive js space stars background is from: https://www.sliderrevolution.com/resources/css-animated-background/ and https://codepen.io/riley-pearce/pen/OJWPjZM
