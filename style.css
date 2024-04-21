@@ -192,6 +192,14 @@ a:hover {
   color: #07fc03;
 }
 
+.spacelink {
+  font-size: 2em;
+  font-weight: bold;
+  margin: .75em 0;
+  color: #07fc03;
+  text-decoration: none;
+}
+
 .contactTag {
   text-align: center;
   color: #6a5acd;
