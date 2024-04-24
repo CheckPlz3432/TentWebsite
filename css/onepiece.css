@@ -144,6 +144,55 @@
 
 .hakidefdiv {
   background-color: #b3ffad;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  margin: 2.5% 0 2.5% 0;
+  width: 80%;
+  border: 6px solid white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.armament {
+  background-color: #9c0528;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  margin: 2.5% 0 2.5% 0;
+  width: 80%;
+  border: 6px solid white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.observation {
+  background-color: #b522ef;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  margin: 2.5% 0 2.5% 0;
+  width: 80%;
+  border: 6px solid white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.conquerors {
+  background-color: #5d68ff;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
   margin: 2.5% 0 2.5% 0;
   width: 80%;
   border: 6px solid white;
@@ -158,10 +207,19 @@
 }
 
 .hakivideodiv {
+  background-color: #5d68ff;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  margin: 2.5% 0 2.5% 0;
+  width: 80%;
+  border: 6px solid white;
+  border-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
 
 .decorpicture {
