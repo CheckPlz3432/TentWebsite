@@ -168,69 +168,57 @@
   width: 60%;
 }
 
-.armament {
-  background-color: #9c0528;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.observation {
-  background-color: #b522ef;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
 .conquerors {
   background-color: #5d68ff;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
+  margin: 25px 50px 75px 40px;
+  min-height: 150px;
   border: 6px solid white;
   border-color: black;
   border-radius: 10px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+  width: 80%;
 }
 
-.hakivideodiv {
-  background-color: #f130d4;
+.csfocuses {
+  background-color: #0c1487;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
+  margin: 25px 50px 75px 40px;
+  min-height: 150px;
   border: 6px solid white;
   border-color: black;
   border-radius: 10px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 90%;
 }
+
+.csfocuses h3 {
+  margin-left: 120px;
+  border: 5px solid blue;
+  display: block;
+  color: white;
+}
+
+.csfocuses p {
+  margin-left: 120px;
+  border: 5px solid blue;
+  display: block;
+  color: white;
+}
+
+.csfocuses img {
+  /* Styles for all images inside the div (and potentially nested divs) */
+  width: 100px;
+  display: block;
+  height: auto;
+  border: 1px solid blue;
+  position: absolute;
+}
+
 
 .decorpicture {
   width: 500px;
