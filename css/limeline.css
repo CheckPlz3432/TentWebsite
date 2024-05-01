@@ -144,7 +144,7 @@
 
 .limelinediv {
   background-image: 
-  url("https://www.transitchicago.com/assets/1/6/pageheader_ctatrademarks.png");
+  src="backgrounds/ChicagoTimelapse.gif";
   height: 350px;
   width: auto;
 }
