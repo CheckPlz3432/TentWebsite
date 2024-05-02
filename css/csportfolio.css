@@ -6,6 +6,7 @@
 .burgerIcon {
   float: left;
   width: 50px;
+  border-radius: 30px;
 }
 
 /* The side navigation menu code start */
@@ -82,69 +83,6 @@
 
 /* Text CSS */
 
-.hakititle {
-  color: white;
-}
-
-.onepiecetext {
-  color: #07fc03;
-}
-
-.onepiecegif {
-  width: 200px;
-  height: auto;
-}
-
-.resumetitlebox {
-  margin: auto;
-  width: 20%;
-  padding: 10px;
-  border: 5px solid blue;
-  border-color: rgb(87, 0, 201);
-}
-
-#resumepic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 4px solid white;
-  padding: 10px;
-}
- 
-
-.onepiecehakidiv {
-  margin: auto;
-  width: 70%;
-  border: 0px;
-  border-radius: 12px;
-  padding: 30px;
-  text-align: center;
-}
-
-#squaredemonslayer {
-  display: block;
-  margin: auto;
-  border: none;
-  padding: 10px;
-  width: 80%;
-}
-
-.demonslayertext {
-  font-weight: bold;
-  color: black;
-  font-size: 1.2em;
-}
-
-.demonslayerbackboxcolor {
-  background-color: #ffa1f6;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-}
-
 .limelinediv {
   background-image: 
   url("https://www.transitchicago.com/assets/1/6/pageheader_ctatrademarks.png");
@@ -183,25 +121,42 @@
 }
 
 .csfocuses {
-  background-color: #0c1487;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  background-color: #979efb;
   margin: 25px 50px 75px 40px;
   min-height: 150px;
   border: 6px solid white;
   border-color: black;
   border-radius: 10px;
   padding: 10px;
+  font-family: "Anta", sans-serif;
   text-align: left;
   display: block;
-  width: 90%;
+  width: 80%;
   border-radius: 50px;
 }
 
-.csfocuses h3 {
+/*.csfocuses h3 {
   margin-left: 120px;
   border: 5px solid blue;
   display: block;
   color: white;
+}*/
+
+.csfocuses h3 {
+  margin-left: 120px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+}
+
+.csfocuses h5 {
+  margin-left: 120px;
+  border: 5px solid rgb(35, 242, 35);
+  border-radius: 10px;
+  background-color: #ff10d7;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
 }
 
 .csfocuses p {
