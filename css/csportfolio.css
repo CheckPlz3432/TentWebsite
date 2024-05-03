@@ -149,7 +149,7 @@
   font-size: 2em;
 }
 
-.csfocuses h5 {
+/*.csfocuses h5 {
   margin-left: 120px;
   border: 5px solid rgb(35, 242, 35);
   border-radius: 10px;
@@ -157,7 +157,38 @@
   display: inline-block;
   color: rgb(0, 0, 0);
   font-size: 1.25em;
+}*/
+
+.projectmethod {
+  margin-left: 120px;
+  border: 5px solid rgb(225, 249, 225);
+  border-radius: 10px;
+  margin-left: 120px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 1.25em;
 }
+
+.clangpythontiny {
+  background-color: #fff310;
+}
+
+.htmltiny {
+  background-color: #2d29ff;
+}
+
+.csstiny {
+  background-color: #88f843;
+}
+
+.jstiny {
+  background-color: #ef118f;
+}
+
+.canvafigmatiny {
+  background-color: #29cdff;
+}
+
 
 .csfocuses p {
   margin-left: 120px;
