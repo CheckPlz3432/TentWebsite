@@ -90,7 +90,7 @@
   width: auto;
 }
 
-.hakidefdiv {
+.portfoliointro {
   background-color: #b3ffad;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   margin: 2.5% 0 2.5% 0;
@@ -147,6 +147,19 @@
   display: inline-block;
   color: rgb(0, 0, 0);
   font-size: 2em;
+}
+
+.projecttitle {
+  margin-left: 120px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+
+  text-decoration: none;
+}
+
+.projecttitle:hover {
+  color: yellow;
 }
 
 /*.csfocuses h5 {
