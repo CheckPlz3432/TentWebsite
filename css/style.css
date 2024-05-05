@@ -194,6 +194,7 @@ a:hover {
 
 .spacetext {
   color: #07fc03;
+  font-family: "Anta", sans-serif;
 }
 
 .spacelink {
@@ -202,6 +203,7 @@ a:hover {
   margin: .75em 0;
   color: #07fc03;
   text-decoration: none;
+  font-family: "Anta", sans-serif;
 }
 
 .contactTag {
