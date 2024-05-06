@@ -143,9 +143,8 @@
 }
 
 .limelinediv {
-  background-image: 
-  src="backgrounds/ChicagoTimelapse.gif";
-  height: 350px;
+  background-image: url("backgrounds/ChicagoTimelapse.gif");
+  height: 800px;
   width: auto;
 }
 
