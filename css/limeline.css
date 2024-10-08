@@ -142,6 +142,19 @@
   padding: 10px;
 }
 
+.timelapseImg {
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (max-height: 600px) {
+
+  img {
+    width: 50%;
+    text-align: center;
+  }
+}
+
 .limelinediv {
   background-image: url("backgrounds/ChicagoTimelapse.gif");
   height: 800px;
