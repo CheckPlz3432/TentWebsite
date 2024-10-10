@@ -1,4 +1,15 @@
 
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+    
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
 
 .burgerIcon {
   float: left;
@@ -79,69 +90,6 @@
 
 /* Text CSS */
 
-.hakititle {
-  color: white;
-}
-
-.onepiecetext {
-  color: #07fc03;
-}
-
-.onepiecegif {
-  width: 200px;
-  height: auto;
-}
-
-.resumetitlebox {
-  margin: auto;
-  width: 20%;
-  padding: 10px;
-  border: 5px solid blue;
-  border-color: rgb(87, 0, 201);
-}
-
-#resumepic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 4px solid white;
-  padding: 10px;
-}
- 
-
-.onepiecehakidiv {
-  margin: auto;
-  width: 70%;
-  border: 0px;
-  border-radius: 12px;
-  padding: 30px;
-  text-align: center;
-}
-
-#squaredemonslayer {
-  display: block;
-  margin: auto;
-  border: none;
-  padding: 10px;
-  width: 80%;
-}
-
-.demonslayertext {
-  font-weight: bold;
-  color: black;
-  font-size: 1.2em;
-}
-
-.demonslayerbackboxcolor {
-  background-color: #ffa1f6;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-}
-
 .timelapseImg {
   width: 100%;
   height: 400px;
@@ -159,175 +107,4 @@
   background-image: url("backgrounds/ChicagoTimelapse.gif");
   height: 800px;
   width: auto;
-}
-
-.hakidefdiv {
-  background-color: #b3ffad;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.armament {
-  background-color: #9c0528;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.observation {
-  background-color: #b522ef;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.conquerors {
-  background-color: #5d68ff;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-}
-
-.hakivideodiv {
-  background-color: #f130d4;
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  margin: 2.5% 0 2.5% 0;
-  width: 80%;
-  border: 6px solid white;
-  border-color: black;
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.decorpicture {
-  width: 500px;
-  height: 300px;
-  object-fit: cover;
-  overflow: hidden;
-}
-
-.onepiecepicture {
-  width: 100%;
-  height: 60%;
-  float: left;
-}
-
-.zenitsupicture {
-  width: 100%;
-  height: 75%;
-  display: block;
-  float: inherit;
-}
-
-.rightsideoppicture {
-  width: 55%;
-  height: 20%;
-  float: right;
-}
-
-#hakivideo {
-  display: block;
-  width: 100px;
-    height: 50px;
-    margin: 0 auto;
-    background-color: #777;
-}
-
-
-#first-fixed-wrapper {
-  width: 1000px;
-  margin: 0 auto;
-}
-
-#second-fixed-wrapper {
-  width: 1000px;
-  margin: 0 auto;
-}
-
-#fixed-main {
-  float: left;
-  width: 550px;
-  margin: 0 20px;
-}
-
-#fixed-extras {
-  float: left;
-  width: 40%;
-  margin: 0 1% 0 0;
-}
-
-#fixed-header {
-  padding: 15px;
-}
-
-#fluid-links {
-  float: left;
-  width: 22.5%;
-  margin: 0 0 0 2.5%; 
-}
-
-#fluid-main {
-  float: left;
-  width: 45%;
-  margin: 0 2.5%;
-}
-
-#fluid-news {
-  float: left;
-  width: 22.5%;
-  margin: 0 2.5% 0 0;
-}
-
-#fluid-header {
-  padding: 15px;
-}
-
-/* 
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
- */
-#map {
-  height: 100%;
 }
