@@ -6,33 +6,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="icons/blueArrow.png">
-
+  
   <!--CSS files start-->
   <link rel="stylesheet" type="text/css" href="css/stars.css">
   <link rel="stylesheet" href="css/limeline.css">
   <!--CSS files end-->
-
+  
   <!--Find out what the right Bootstrap code is for this section, 
-    conflicting Bootstrap code is causing problems-->
+  conflicting Bootstrap code is causing problems-->
   <!--Bootstrap CSS and JS code start-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
-
+  
   
   <!--Bootstrap CSS and JS code end-->
 </head>
 
 <!-- An error is being cause in the 
-   blog page that is mistakenly causing the 
-   sidenav bar to spill out, because of issues with the borgor png
-   and how the sidenav is outside of the body and header,
-   UNLIKE how it is in the index
-   
-   Solution: Fix this by making them both as similar as possible while
-   still maintaining little excessive use of bootstrap libraries and css files
-   ALSO: Clean up Limeline, index, and other CSS files with everything but essentials
+blog page that is mistakenly causing the 
+sidenav bar to spill out, because of issues with the borgor png
+and how the sidenav is outside of the body and header,
+UNLIKE how it is in the index
+
+Solution: Fix this by making them both as similar as possible while
+still maintaining little excessive use of bootstrap libraries and css files
+ALSO: Clean up Limeline, index, and other CSS files with everything but essentials
    Get rid of the demonslayer and onepiece divs from ITMD 361 - Project 3-->
 
 <!-- Body open -->
@@ -43,17 +43,19 @@
     <div id="stars2"></div>
     <div id="stars3"></div>
     <div id="stars4"></div>
-
-    <img class="burgerIcon" onclick="openNav()" alt="borgor" src="icons/borgor.png"/>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="misc/TrentCCurrentResume.pdf" target="_blank">Resume</a>
-            <a href="csportfolio.html">Portfolio</a>
-            <a href="#">Dodgeball</a>
-        </div>
-
-
+    
+    
+    <div class="topnav">
+      <!-- <a>
+      <img src="icons/blueArrow.png" class="img-circle" height="65" width="65" alt="Avatar">
+    </a> -->
+      <a class="active" href="index.html">Home</a>
+      <a target="_blank" href="misc/TrentCCurrentResume.pdf">Resume</a>
+      <a href="csportfolio.html">Portfolio</a>
+      <a href="#about">Dodgeball</a>
+    </div>
+    
+    
     <div class="container-fluid">
       <div class="row content">
         <div class="col-sm-9">
@@ -82,7 +84,6 @@
             of Lawrence Ave and dig under for subways, on top of delaying traffic even more than
             it already is, which would cost millions of dollars and at minimum 2 years to complete.
             Plus, WHY extend the Brown Line when there's already a Lawrence Ave bus available?
-            <br><br>
           </p>
           <img alt="random" style="scale: 65%; width: 100%;" src="misc/CTALimeLine.png">
           <p style="font-family: 'Courier New', Courier, monospace; font-size: 1.25em;">
@@ -96,7 +97,6 @@
             by CTA bus routes. 81 Lawrence, 49 Western & X49 Western Express, 9 Ashland & X9 Ashland
             72 North, etc.
           </p>
-          <br><br>
           <hr>
 
           <h4>Leave a Comment:</h4>
